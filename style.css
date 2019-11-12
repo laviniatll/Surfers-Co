@@ -1,0 +1,211 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+ }
+
+.containerr{
+	background-image: linear-gradient(to bottom, transparent 15%, white 100%), url('img/waves.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100% 100vh;
+
+
+ }
+
+ 
+.nav-itemm:hover{
+	
+	background: #00b0ff;
+	cursor: pointer; 
+ 
+}
+ 
+ .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0) !important;
+  }
+  
+
+ .slogan{
+	font-family: "Playfair Display", sans-serif;
+	font-style: italic;
+	text-align: center;
+	position: relative;
+	top: 100px;
+ } 
+ 
+ .slogan-white{
+	 color: #fff;
+ }
+  
+ .boards{
+	 position: relative;
+	 top: 170px;
+ }
+ 
+
+.star-rating {
+  line-height:32px;
+  font-size:1.25em;
+}
+
+.checked{
+	color: yellow;
+	}
+	
+.nav-tabs li{
+	padding: 0;
+	margin: 5px;
+	text-align: left;
+	
+}
+
+.thumbs {
+	margin-top:55px;
+}
+
+.thumbs li {
+	padding:0; 
+	height: 73px;
+	max-width: 10%;
+
+}
+
+.price{
+	color: black;
+	font-weight: bold;
+}
+
+.buy-now{
+	margin-top: -35px;
+  margin-left: 120px;
+  float: left;
+  height: 40px;
+  width: 130px;
+  background-color: #00b0ff;
+  border: none;
+  color: white;
+}
+
+.header1{
+	margin-top: 180px; 
+	text-align: center; 
+	color: #f7f7f7; 
+	font-size: 155px; 
+	font-weight: bold; 
+	margin-bottom: -58px; 
+	font-family: 'Montserrat Bold', sans-serif;
+}
+
+
+.about-us{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 50px;
+}
+
+.about-us-info{
+	font-size: 12.5px;
+	font-style: italic;
+	line-height: 2.3;
+}
+
+.team{
+	
+	font-size: 12px;
+}
+
+.team-card{
+	padding: 20px 0;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 13px;
+	background-color: #fff;
+	color: grey;
+}
+
+.team1, .team2, .team3, .team4{
+	box-shadow: 0 0 5em grey;
+}
+
+.team1, .team3{
+	margin: 0 0 50px 0; 
+}
+
+.team2, .team4{
+	margin: 25px -25px 25px -25px; 
+	
+}
+
+.team-card h6{
+	color: #00b0ff;
+	padding-top: 10px;
+	
+}
+
+.team-card:hover{
+	background-color: #00b0ff;
+	color: #fff !important; 
+}
+
+
+
+.updates-title
+{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 150px;
+	
+}
+
+.updates:hover{
+	box-shadow: 0 0 3em grey;
+	color: blue !important;
+}
+
+.posts{
+	margin-top:100px; 
+	font-family: 'Montserrat', sans-serif; 
+	padding: 12px; 
+	font-size: 13px; 
+	font-weight: bold;
+	background-color: #00b0ff;
+	border: none;
+	color: white;
+	width: 170px;
+  
+}
+
+
+.caption-insta{
+	padding:15px; 
+	color: #00b0ff; 
+	font-size: 16px; 
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #fff;
+	width: 430px;
+}
+
+footer ul{
+	font-size: 12px; 
+	padding: 20px; 
+	line-height: 2.2; 
+	color: #fff;
+}
+
+.newsletter{
+	background:transparent; 
+	border: 0; 
+	border-bottom: 1px solid grey;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+		margin-left: none;
+		margin-right: 0;
+		font-size: 100%;
+	} 
+	
+}
