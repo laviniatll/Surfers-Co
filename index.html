@@ -14,249 +14,38 @@
 		
 		<title>Surfers Co.</title>
   </head>
+  
   <body>  
 		<header class="fixed-top">
 			<div class="container">
-			<div class="navbar"> 
-					<a class="navbar-brand" href="#">
+				<div class="navbar"> 
+					<a class="navbar-brand" href="#" onclick="loadPartial('mainPage')">
 						<img src="img/logo.png" alt="Logo Surfers Co." class="img-responsive">
 					</a>
+					
 					<nav>
-						<ul class="navbar list-unstyled">
-							<li class="nav-item nav-itemm"><a class="nav-link" href="#" onclick="loadPartial('_boards')">BOARDS</a></li>
-							<li class="nav-item nav-itemm"><a class="nav-link" href="#">ACCESSORIES</a></li>
-							<li class="nav-item nav-itemm"><a class="nav-link" href="#">BLOG</a></li>
-							<li class="nav-item nav-itemm"><a class="nav-link" href="#">TECHNOLOGY</a></li>
-							<li class="nav-item nav-itemm"><a class="nav-link" href="#">TEAM</a></li>
-							<li class="nav-item nav-itemm"><a class="nav-link" href="#">DEALERS</a></li>
+						<ul class="navbar list-unstyled" id="top-buttons">
+							<li class="nav-item nav-itemm" id="boards">
+								<a class="nav-link" href="#" onclick="loadPartial('boards')">BOARDS</a>
+							</li>
+							<li class="nav-item nav-itemm"><a class="nav-link" href="#" onclick="loadPartial('accessories')">ACCESSORIES</a></li>
+							<li class="nav-item nav-itemm"><a class="nav-link" href="#" onclick="loadPartial('blog')">BLOG</a></li>
+							<li class="nav-item nav-itemm"><a class="nav-link" href="#" onclick="loadPartial('technology')">TECHNOLOGY</a></li>
+							<li class="nav-item nav-itemm"><a class="nav-link" href="#" onclick="loadPartial('team')">TEAM</a></li>
+							<li class="nav-item nav-itemm"><a class="nav-link" href="#" onclick="loadPartial('dealers')">DEALERS</a></li>
 						</ul>
 					</nav>
+					
 					<ul class="navbar list-unstyled">
 						<li class="nav-item social-link"><a class="nav-link" href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
 						<li class="nav-item social-link"><a class="nav-link" href="#"> <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
 						<li class="nav-item social-link"><a class="nav-link" href="#"> <i class="fa fa-envelope-o" aria-hidden="true"></i> </a></li>
 					</ul>
-					
-			</div>
+				</div>
 			</div>
 		</header>
 		
-		<div class="main containerr" style="margin-top: -90px; padding-top: 90px;">
-			<div class="slogan">
-				<h1>Ride every wave as if it's your last</h1>
-				<h3 class="slogan-white">We love the motion of the ocean</h3>
-			</div>
-			
-			<div class="container">
-				<div class="row justify-content-center boards" style="margin-bottom: 350px; ">
-					
-					<div class="col-md-4 col-sm-6"  style="background-color:#fff; height: 100%">
-						<div class="row">
-						
-								<div class="col-md-8 col-sm-8">
-										<img src="img/board.png" class="img-responsive" alt="Boards" width="300px" height="409px" style= "margin-left:-15px;"> 
-										
-								</div>
-								
-								<div class="col-md-4 col-sm-4" >
-										<ul class="list-unstyled thumbs"  >
-											<li><a class="nav-link" href="#"><img src="img/thumb1.png"></a></li>
-											<li><a class="nav-link" href="#"><img src="img/thumb2.png"></a></li>
-											<li><a class="nav-link" href="#"><img src="img/thumb3.png"></a></li>
-											<li><a class="nav-link" href="#"><img src="img/thumb4.png"></a></li>
-										</ul>
-								</div>
-						</div>
-					</div>	
-					
-					
-					
-					
-					<div class="col-md-4 col-sm-6" style="background-color:#fff;">  
-						<h5>JR Surfboards The Donny Stoker <br /> Yellow/Green Rail Fade</h5>
-						<div style="color: grey;">
-						
-							<div class="star-rating">
-								<span class="fa fa-star checked" data-rating="1"></span>
-								<span class="fa fa-star checked" data-rating="2"></span>
-								<span class="fa fa-star checked" data-rating="3"></span>
-								<span class="fa fa-star checked" data-rating="4"></span>
-								<span class="fa fa-star-o" data-rating="5"></span>
-								
-							</div>
-							
-							<ul class="nav nav-tabs list-unstyled">
-								<li class="nav-item">DESCRIPTION </li> 
-								<li class="nav-item">FEATURES</li>
-								<li class="nav-item">DIMENSIONS</li>
-							</ul>
-							<br>
-							<p>
-							Easy to ride, care free surfing craft that's fun for everyone,
-							paddles well, super fast down the line and great for any level of surfing
-							depending on who rides it. The Donny Stoker, a rework on design from stokesys
-							first ever pro model. A super easy to surf and fun board. The Donny Stoker
-							is a board for total freesurfing expression.
-							</p>
-							
-								<h4 class="price">$499.99</h4>
-								<button class="buy-now">BUY NOW</button>
-							<br>
-	
-							<a href="#">View all boards</a>
-						</div>
-					</div>	
-				</div>
-		
-					
-			</div>
-		
-		<div class="container-fluid" style="padding:0">
-		<h1 class="header1" style="font-size: 180px;"> ABOUT US </h1>
-			<div class="row justify-content-center " >	
-				<div class="col-md-12">	
-						<img src="img/about-us.png" alt="Surfer" width= "100%" class="img-responsive" >
-				</div>
-			</div>
-			<div class="row justify-content-left" >	
-				<div class="col-md-6" style=" margin-top:-230px;">
-					<div class="row justify-content-left" style="background-color:#fff;">	
-							<div class="col-md-6">
-							</div>
-							<div class="col-md-6 about-us">
-									<center><strong><p> WE ARE SURFERS CO. </p> </strong></center>
-									<center><i class="fa fa-times" aria-hidden="true"></i></center>
-									<p class="about-us-info"> Lorem ipsum dolor sit amet, aeneam <br> consectetur adipiscing elit. Fusce iaculis <br>
-									feugiat arcunum fermentum hendrerit. <br>Suspendisse auctor labor nisi, et <br>
-									interdum diam facilisis, aliquam pulvinar <br> semi egetis belle sollicitudin ut. Nullam <br>
-									tincidun finibustus scelerisque. </p>
-									<a href="#" style="font-size: 12.5px">Read more</a>
-							</div>		
-					</div>	
-						
-				</div>
-			</div>
-			<div class="row" >	
-				<div class="col-md-6">
-				</div>
-				<div class="col-md-6" style="margin-top: -180px">
-					<img src="img/about-us-video.png" class="img-responsive" alt="Surfer-video" width="400px" height="250px" >
-					
-				</div>
-			</div> 
-					
-		</div>
-		
-		<div class="container">
-		<h1 class="header1"> OUR TEAM </h1>
-			<div class="row justify-content-center team">
-					<div class="col-md-1">
-			<!--			<span class="fa-stack fa-lg">
-							<i class="fa fa-circle fa-stack-2x" style="color: white; text-shadow: 0 0 0.7em grey;"></i>
-							<a href="#"><i class="fa fa-arrow-left fa-stack-1x"></i></a>
-						</span>  -->
-					</div>
-					<div class="col-md-2 team-card team1">
-						
-							<img src="img/team1.png" alt="image" class="img-circle" >
-							<h6><strong> Taj Burrow </strong></h6>
-							<i class="fa fa-at" aria-hidden="true"></i> tajamos <br>
-							<i class="fa fa-google-wallet" aria-hidden="true"></i> <br>
-							<i class="fa fa-map-marker" aria-hidden="true"></i> Yallingup, Australia
-					</div>
-					<div class="col-md-2 team-card team2 sticky-top">	
-							<img src="img/team2.png" alt="image" class="img-circle" >
-							<h6><strong> Malia Manuel </strong></h6>
-							<i class="fa fa-at" aria-hidden="true"></i> maliamanuel <br>
-							<i class="fa fa-google-wallet" aria-hidden="true"></i><br>
-							<i class="fa fa-map-marker" aria-hidden="true"></i> Wailua, Hi
-					</div>		
-							
-					<div class="col-md-2 team-card team3">		
-							<img src="img/team3.png" alt="image" class="img-circle" >
-							<h6><strong> Ian Walsh </strong></h6>
-							<i class="fa fa-at" aria-hidden="true"></i> ian.walsh <br>
-							<i class="fa fa-google-wallet" aria-hidden="true"></i> <br>
-							<i class="fa fa-map-marker" aria-hidden="true"></i> Maui, Hi
-					</div>	
-							
-					<div class="col-md-2 team-card team4">		
-							<img src="img/team4.png" alt="image" class="img-circle" >
-							<h6><strong> Macy Callaghan </strong></h6>
-							<i class="fa fa-at" aria-hidden="true"></i> macyjanecallaghan <br>
-							<i class="fa fa-google-wallet" aria-hidden="true"></i> <br>
-							<i class="fa fa-map-marker" aria-hidden="true"></i> San Clemente, CA
-					</div>
-					<div class="col-md-1">
-					<!--	<span class="fa-stack fa-lg">
-							<i class="fa fa-circle fa-stack-2x" style="color: white; text-shadow: 0 0 0.7em grey;"></i>
-							<a href="#"><i class="fa fa-arrow-right fa-stack-1x"></i></a>
-						</span>  -->
-					</div>
-			</div>
-			
-		</div>
-		
-		<div class="container">
-		
-				<div class="updates-title">
-					<strong>LATEST UPDATES</strong><br>
-					<i class="fa fa-times" aria-hidden="true"></i>
-				</div>
-				<div class="row justify-content-center" style="font-family: 'Raleway', sans-serif; color: grey">
-						<div class="col-md-3">
-							  <div class="thumbnail updates">
-								  <img src="img/updates1.png" style="width:100%">
-								  <div class="caption" style="padding:15px;">
-										<p>Ellie Turner and Jobe Harris <br> have taken out the 2016 <br>British National Surf <br>Championships</p>
-								  </div>
-							  </div>
-							</div>
-							<div class="col-md-3">
-							  <div class="thumbnail updates">
-								
-								  <img src="img/updates2.png" style="width:100%">
-								  <div class="caption" style="padding:15px; ">
-									<p>A large group of surfers <br>invaded the coast of La Jolla<br> Shores, in California, with a<br> single goal in mind</p>
-								  </div>
-								
-							  </div>
-							</div>
-							<div class="col-md-3">
-							  <div class="thumbnail updates">
-								
-								  <img src="img/updates3.png" style="width:100%">
-								  <div class="caption" style="padding:15px;">
-									<p>Surfboards are constantly <br>evolving, and there are <br>multiple board designs for a <br>broad range of environments</p>
-								  </div>
-								
-							  </div>
-							</div>
-							
-						  </div>
-							
-			<div class=" text-center"><button class="posts">VIEW ALL POSTS</button></div>
-			
-		</div>
-		
-		<div class="container">
-				<div class="row" style="margin-top: 180px; margin-bottom: -180px">
-					<div class="col-md-6" style="padding-left: 120px;">
-								<div class="thumbnail" >
-										<h1 class="header1" style="font-size: 73px; margin-top: 0; margin-bottom: -28px; "> INSTAGRAM </h1>
-										<img src="img/instagram.png" width="430px" height="470px">	
-									<div class="caption caption-insta">
-										<i class="fa fa-instagram" aria-hidden="true"></i> FOLLOW US 
-										<div style="color: black; font-size: 13px; display: inline; "><i class="fa fa-at" aria-hidden="true"></i> surfersco </div>
-									</div>
-								</div>
-					</div>			
-					<div class="col-md-6" style="margin-top: 90px; padding-left: 40px;">
-						<img src="img/facebook.png" width="365px" height="270px">
-					</div>
-				</div>
-		</div>
-		
+		<div class="main containerr" id="componentMount" style="margin-top: -90px; padding-top: 90px;">
 		</div>
 		
 		<footer style="background-color:#000; font-family: 'Raleway', sans-serif;">
@@ -298,14 +87,8 @@
 					</div>
 				</div>
 			</div>
-			
 			<br>
-			
-			
-	
 		</footer>
-		
-		
 		
 		<!-- jQuery library   -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

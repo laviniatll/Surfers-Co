@@ -9,10 +9,13 @@ html, body {
 	background-repeat: no-repeat;
 	background-position: top;
 	background-size: 100% 100vh;
+	min-height: 1000px;
+}
 
-
- }
-
+.nav-itemm.selected {
+	background: red;
+	cursor: pointer;
+}
  
 .nav-itemm:hover{
 	
@@ -69,7 +72,6 @@ html, body {
 	padding:0; 
 	height: 73px;
 	max-width: 10%;
-
 }
 
 .price{
@@ -98,7 +100,6 @@ html, body {
 	font-family: 'Montserrat Bold', sans-serif;
 }
 
-
 .about-us{
 	font-family: 'Montserrat', sans-serif;
 	margin-top: 50px;
@@ -110,8 +111,7 @@ html, body {
 	line-height: 2.3;
 }
 
-.team{
-	
+.team {
 	font-size: 12px;
 }
 
@@ -134,7 +134,6 @@ html, body {
 
 .team2, .team4{
 	margin: 25px -25px 25px -25px; 
-	
 }
 
 .team-card h6{
@@ -148,15 +147,11 @@ html, body {
 	color: #fff !important; 
 }
 
-
-
-.updates-title
-{
+.updates-title {
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	margin-bottom: 30px;
 	margin-top: 150px;
-	
 }
 
 .updates:hover{
@@ -174,9 +169,7 @@ html, body {
 	border: none;
 	color: white;
 	width: 170px;
-  
 }
-
 
 .caption-insta{
 	padding:15px; 
@@ -203,9 +196,8 @@ footer ul{
 
 @media only screen and (max-width: 768px) {
     body{
-		margin-left: none;
-		margin-right: 0;
-		font-size: 100%;
+			margin-left: none;
+			margin-right: 0;
+			font-size: 100%;
 	} 
-	
 }
