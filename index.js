@@ -18,6 +18,23 @@ let loadPartial = (componentName) => {
   });
 };
 
+let boards = [
+  {
+    imgUrl: 'img/boards.jpg',
+    title: 'Board title',
+    stars: 3,
+    desc: 'This is the best board',
+    price: 350
+  }, 
+  {
+    imgUrl: 'img/boards2.jpg',
+    title: 'Board title 2',
+    stars: 2,
+    desc: 'This is not the best board',
+    price: 250
+  }
+];
+
 window.onload = () => {
   // Initialize with the main page
   loadPartial(mainPageName);

@@ -18,10 +18,9 @@ html, body {
 }
  
 .nav-itemm:hover{
-	
 	background: #00b0ff;
 	cursor: pointer; 
- 
+	border-radius: 25%;
 }
  
  .nav-link {
