@@ -4,81 +4,81 @@ html, body {
   overflow-x: hidden; 
  }
 
-.containerr{
-	background-image: linear-gradient(to bottom, transparent 15%, white 100%), url('img/waves.png');
+.containerr {
+	background-image: linear-gradient(to bottom, transparent 15%, #fff 100%), url('img/waves.png');
 	background-repeat: no-repeat;
 	background-position: top;
 	background-size: 100% 100vh;
 	min-height: 1000px;
 }
 
-.nav-itemm.selected {
-	background: red;
-	cursor: pointer;
-}
- 
-.nav-itemm:hover{
-	background: #00b0ff;
+/* to do: replace hover with event handlers mouseover mouseout*/
+.nav-itemm.selected, .nav-itemm:hover {
 	cursor: pointer; 
-	border-radius: 25%;
+	border-radius: 20%;
+}
+
+.nav-itemm.selected {
+	background: #75cbf3;
 }
  
- .nav-link {
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(0, 0, 0) !important;
-  }
+.nav-itemm:hover {
+	background: #00b0ff;
+}
+ 
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  color: #000 !important;
+}
   
-
- .slogan{
+.slogan {
 	font-family: "Playfair Display", sans-serif;
 	font-style: italic;
 	text-align: center;
 	position: relative;
 	top: 100px;
- } 
+} 
  
- .slogan-white{
-	 color: #fff;
- }
+.slogan-white {
+	color: #fff;
+}
   
- .boards{
-	 position: relative;
-	 top: 170px;
- }
- 
-
-.star-rating {
-  line-height:32px;
-  font-size:1.25em;
+.boards {
+	position: relative;
+	top: 170px;
 }
 
-.checked{
-	color: yellow;
-	}
+.star-rating {
+  line-height: 32px;
+  font-size: 1.25em;
+}
+
+.checked {
+	color: #ff0;
+}
 	
-.nav-tabs li{
+.nav-tabs li {
 	padding: 0;
 	margin: 5px;
 	text-align: left;
-	
 }
 
 .thumbs {
-	margin-top:55px;
+	margin-top: 55px;
 }
 
 .thumbs li {
-	padding:0; 
+	padding: 0; 
 	height: 73px;
 	max-width: 10%;
 }
 
-.price{
-	color: black;
+.price {
+	color: #000;
 	font-weight: bold;
 }
 
-.buy-now{
+.buy-now {
 	margin-top: -35px;
   margin-left: 120px;
   float: left;
@@ -86,10 +86,10 @@ html, body {
   width: 130px;
   background-color: #00b0ff;
   border: none;
-  color: white;
+  color: #fff;
 }
 
-.header1{
+.header1 {
 	margin-top: 180px; 
 	text-align: center; 
 	color: #f7f7f7; 
@@ -99,12 +99,12 @@ html, body {
 	font-family: 'Montserrat Bold', sans-serif;
 }
 
-.about-us{
+.about-us {
 	font-family: 'Montserrat', sans-serif;
 	margin-top: 50px;
 }
 
-.about-us-info{
+.about-us-info {
 	font-size: 12.5px;
 	font-style: italic;
 	line-height: 2.3;
@@ -114,34 +114,33 @@ html, body {
 	font-size: 12px;
 }
 
-.team-card{
+.team-card {
 	padding: 20px 0;
 	text-align: center;
 	font-family: "Raleway", sans-serif;
 	font-size: 13px;
 	background-color: #fff;
-	color: grey;
+	color: #808080;
 }
 
-.team1, .team2, .team3, .team4{
-	box-shadow: 0 0 5em grey;
+.team1, .team2, .team3, .team4 {
+	box-shadow: 0 0 5em #808080;
 }
 
-.team1, .team3{
+.team1, .team3 {
 	margin: 0 0 50px 0; 
 }
 
-.team2, .team4{
+.team2, .team4 {
 	margin: 25px -25px 25px -25px; 
 }
 
-.team-card h6{
+.team-card h6 {
 	color: #00b0ff;
 	padding-top: 10px;
-	
 }
 
-.team-card:hover{
+.team-card:hover {
 	background-color: #00b0ff;
 	color: #fff !important; 
 }
@@ -153,25 +152,25 @@ html, body {
 	margin-top: 150px;
 }
 
-.updates:hover{
+.updates:hover {
 	box-shadow: 0 0 3em grey;
-	color: blue !important;
+	color: #00f !important;
 }
 
-.posts{
-	margin-top:100px; 
+.posts {
+	margin-top: 100px; 
 	font-family: 'Montserrat', sans-serif; 
 	padding: 12px; 
 	font-size: 13px; 
 	font-weight: bold;
 	background-color: #00b0ff;
 	border: none;
-	color: white;
+	color: #fff;
 	width: 170px;
 }
 
-.caption-insta{
-	padding:15px; 
+.caption-insta {
+	padding: 15px; 
 	color: #00b0ff; 
 	font-size: 16px; 
 	font-weight: bold;
@@ -180,23 +179,23 @@ html, body {
 	width: 430px;
 }
 
-footer ul{
+footer ul {
 	font-size: 12px; 
 	padding: 20px; 
 	line-height: 2.2; 
 	color: #fff;
 }
 
-.newsletter{
-	background:transparent; 
+.newsletter {
+	background: transparent; 
 	border: 0; 
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid #808080;
 }
 
 @media only screen and (max-width: 768px) {
-    body{
-			margin-left: none;
-			margin-right: 0;
-			font-size: 100%;
+  body {
+		margin-left: none;
+		margin-right: 0;
+		font-size: 100%;
 	} 
 }

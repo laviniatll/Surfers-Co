@@ -4,7 +4,7 @@ let boards = [
     title: 'Board 1',
     desc: 'Board 1 description',
     stars: 3,
-    price: 350
+    price: 350 
   },
   {
     imgUrl: '/img/thumb1.png',
@@ -18,25 +18,26 @@ let boards = [
     title: 'Board 2',
     desc: 'Board 2 description',
     stars: 2,
-    price: 250
+    price: 200
   },
   {
     imgUrl: '/img/thumb3.png',
     title: 'Board 2',
     desc: 'Board 2 description',
     stars: 2,
-    price: 250
+    price: 150
   },
   {
     imgUrl: '/img/thumb4.png',
     title: 'Board 2',
     desc: 'Board 2 description',
     stars: 2,
-    price: 250
+    price: 550
   }
 ];
 
 let starsHTML = (starsCount) => {
+ // to do star rating function
   return (
     `<span class="fa fa-star checked" data-rating="1"></span>
     <span class="fa fa-star checked" data-rating="2"></span>
@@ -66,7 +67,7 @@ let boardHTML = (board) => {
         
         <p>${board.desc}</p>
         
-        <h4 class="price">$499.99</h4>
+        <h4 class="price">$${board.price}</h4>
         
         <button class="buy-now">BUY NOW</button>
       </div>
